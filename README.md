@@ -1,3 +1,5 @@
 # UV Torch Env
 
-Just use `setup.ps1` or `setup.sh`.
+参考 `setup.ps1`。
+
+这是目前最快的方案。
