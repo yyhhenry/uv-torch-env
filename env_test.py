@@ -1,11 +1,14 @@
 import sys
 
+import numpy as np
 import torch
 import torchaudio
 import torchvision
 from torch import Tensor
 
 print("python", sys.version)
+
+print("numpy", np.__version__)
 
 print("torch", torch.__version__)
 
