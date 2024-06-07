@@ -1,2 +1,5 @@
 [pip]
-extra-index-url = ["https://download.pytorch.org/whl/cu121"]
+extra-index-url = [
+    "https://download.pytorch.org/whl/cu121",
+    "https://pypi.org/simple",
+]

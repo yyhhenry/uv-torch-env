@@ -3,3 +3,4 @@ torchvision
 torchaudio
 numpy==1.26.3
 setuptools==69.5.1
+pyright
