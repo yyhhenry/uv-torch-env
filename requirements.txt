@@ -1,7 +1,9 @@
 # PyTorch requirements should be repeated here,
 # if torch is required by some package here.
 # Otherwise, the torch-cpu package will overwrite the gpu version.
-# torch==2.1.2+cu121
+torch==2.3.1+cu121
+torchvision
+torchaudio
 
 numpy==1.26.3
 setuptools==69.5.1

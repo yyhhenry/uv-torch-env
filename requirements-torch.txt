@@ -1,3 +1,4 @@
-torch==2.1.2+cu121
+torch==2.3.1+cu121
 torchvision
 torchaudio
+

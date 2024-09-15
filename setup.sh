@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ ! -d ".venv" ]; then
-    uv venv -p 3.11
+    uv venv -p 3.10
 fi
 
 if [ -f "requirements-torch.txt" ]; then

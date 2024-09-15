@@ -1,5 +1,5 @@
 if (-not (Test-Path .venv)) {
-    uv venv -p 3.11
+    uv venv -p 3.10
 }
 
 if (Test-Path requirements-torch.txt) {
