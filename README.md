@@ -1,5 +1,8 @@
 # UV Torch Env
 
-参考 `setup.ps1`, `setup.sh`, `requirements.txt`, `requirements-torch.txt` 安装环境。
+```sh
+# Try `uv sync` to install dependencies only.
 
-这是目前最快的方案。
+# Run with specific python version & torch environment.
+uv run ./env_test.py
+```
