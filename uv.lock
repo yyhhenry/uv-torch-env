@@ -319,6 +319,7 @@ name = "uv-torch-env"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "markupsafe" },
     { name = "numpy" },
     { name = "setuptools" },
     { name = "torch" },
@@ -328,6 +329,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "markupsafe", specifier = ">=2.1.5,<3" },
     { name = "numpy", specifier = "==1.26.3" },
     { name = "setuptools", specifier = "==69.5.1" },
     { name = "torch", specifier = "==2.3.1+cu121" },
