@@ -33,10 +33,12 @@ def test_cuda():
 
     print(f"{torch.cuda.is_available()=}")
 
-    x = torch.Tensor([1, 2, 3]).cuda()
-    y = torch.Tensor([1, 4, 9]).cuda()
+    device = "cuda:0" if torch.cuda.is_available() else "cpu"
+
+    x = torch.Tensor([1, 2, 3]).to(device)
+    y = torch.Tensor([1, 4, 9]).to(device)
     assert bool((x * x == y).all().item())
-    print("torch.cuda works")
+    print(f"torch on {device} works")
 
 
 if __name__ == "__main__":
