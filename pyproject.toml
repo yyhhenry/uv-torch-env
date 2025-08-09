@@ -3,7 +3,7 @@ name = "uv-torch-env"
 version = "0.2.0"
 description = "A minimal example of using `uv` with PyTorch."
 readme = "README.md"
-requires-python = "==3.10.*"
+requires-python = "==3.12.*"
 dependencies = [
     "numpy>=2.2.5",
     "setuptools>=78.1.1",
